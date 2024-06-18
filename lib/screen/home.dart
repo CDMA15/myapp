@@ -21,7 +21,10 @@ class _MyHomePageState extends State<HomePage> {
             }, child: const Text('Login')),
             ElevatedButton(onPressed: () => {
               Navigator.pushNamed(context, '/register')
-            }, child: const Text('Register'))
+            }, child: const Text('Register')),
+            ElevatedButton(onPressed: () => {
+              Navigator.pushNamed(context, '/principal')
+            }, child: const Text('Principal'))
           ],
         ),
       ),

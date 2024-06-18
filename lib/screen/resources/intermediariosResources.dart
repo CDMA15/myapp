@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class PrincipalPage extends StatefulWidget {
-  const PrincipalPage({super.key});
+class IntermediariosResourcesPage extends StatefulWidget {
+  const IntermediariosResourcesPage({super.key});
   @override
-  State<PrincipalPage> createState() => _MyPrincipalPageState();
+  State<IntermediariosResourcesPage> createState() => _MyIntermediariosResourcesPageState();
 }
 
-class _MyPrincipalPageState extends State<PrincipalPage> {
+class _MyIntermediariosResourcesPageState extends State<IntermediariosResourcesPage> {
 
   @override
   Widget build(BuildContext context) {
@@ -21,17 +21,15 @@ class _MyPrincipalPageState extends State<PrincipalPage> {
                 Container(
                 width: double.infinity,
                 child: ElevatedButton.icon(
-                  onPressed: () {
-                    Navigator.pushNamed(context, '/cunaResources');
-                  },
+                  onPressed: () {},
                   label: const Text(
-                    "Cuna",
+                    "Lección",
                     style:TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,
                     ),
                     ),
-                  icon: const Icon(Icons.radio_button_unchecked),
+                  icon: const Icon(Icons.keyboard_arrow_right),
                   style: ElevatedButton.styleFrom(
                     padding: const EdgeInsets.all(15),
                     alignment: Alignment.centerLeft,
@@ -45,17 +43,15 @@ class _MyPrincipalPageState extends State<PrincipalPage> {
                 Container(
                 width: double.infinity,
                 child: ElevatedButton.icon(
-                  onPressed: () {
-                    Navigator.pushNamed(context, '/infantesResources');
-                  },
+                  onPressed: () {},
                   label: const Text(
-                    "Infantes",
+                    "Material",
                     style:TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,
                     ),
                     ),
-                  icon: const Icon(Icons.radio_button_unchecked),
+                  icon: const Icon(Icons.keyboard_arrow_right),
                   style: ElevatedButton.styleFrom(
                     padding: const EdgeInsets.all(15),
                     alignment: Alignment.centerLeft,
@@ -69,17 +65,15 @@ class _MyPrincipalPageState extends State<PrincipalPage> {
                 Container(
                 width: double.infinity,
                 child: ElevatedButton.icon(
-                  onPressed: () {
-                    Navigator.pushNamed(context, '/primariosResources');
-                  },
+                  onPressed: () {},
                   label: const Text(
-                    "Primarios",
+                    "Multimedia",
                     style:TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,
                     ),
                     ),
-                  icon: const Icon(Icons.radio_button_unchecked),
+                  icon: const Icon(Icons.keyboard_arrow_right),
                   style: ElevatedButton.styleFrom(
                     padding: const EdgeInsets.all(15),
                     alignment: Alignment.centerLeft,
@@ -93,65 +87,15 @@ class _MyPrincipalPageState extends State<PrincipalPage> {
                 Container(
                 width: double.infinity,
                 child: ElevatedButton.icon(
-                  onPressed: () {
-                    Navigator.pushNamed(context, '/intermediariosResources');
-                  },
+                  onPressed: () {},
                   label: const Text(
-                    "Intermediarios",
+                    "Extras",
                     style:TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,
                     ),
                     ),
-                  icon: const Icon(Icons.radio_button_unchecked),
-                  style: ElevatedButton.styleFrom(
-                    padding: const EdgeInsets.all(15),
-                    alignment: Alignment.centerLeft,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(10),
-                    )
-                  ),
-                ),
-                ),
-                const SizedBox(height: 15),
-                Container(
-                width: double.infinity,
-                child: ElevatedButton.icon(
-                  onPressed: () {
-                    Navigator.pushNamed(context, '/juvenilesResources');
-                  },
-                  label: const Text(
-                    "Juveniles",
-                    style:TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 20,
-                    ),
-                    ),
-                  icon: const Icon(Icons.radio_button_unchecked),
-                  style: ElevatedButton.styleFrom(
-                    padding: const EdgeInsets.all(15),
-                    alignment: Alignment.centerLeft,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(10),
-                    )
-                  ),
-                ),
-                ),
-                const SizedBox(height: 15),
-                Container(
-                width: double.infinity,
-                child: ElevatedButton.icon(
-                  onPressed: () {
-                    Navigator.pushNamed(context, '/adultosResources');
-                  },
-                  label: const Text(
-                    "Adultos",
-                    style:TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 20,
-                    ),
-                    ),
-                  icon: const Icon(Icons.radio_button_unchecked),
+                  icon: const Icon(Icons.keyboard_arrow_right),
                   style: ElevatedButton.styleFrom(
                     padding: const EdgeInsets.all(15),
                     alignment: Alignment.centerLeft,

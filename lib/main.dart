@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/screen/resources/adultosResources.dart';
+import 'package:myapp/screen/resources/cunaResources.dart';
 import 'package:myapp/screen/home.dart';
 import 'package:myapp/screen/login.dart';
+import 'package:myapp/screen/principal.dart';
 import 'package:myapp/screen/register.dart';
+import 'package:myapp/screen/resources/infantesResources.dart';
+import 'package:myapp/screen/resources/intermediariosResources.dart';
+import 'package:myapp/screen/resources/juvenilesResources.dart';
+import 'package:myapp/screen/resources/primariosResources.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,6 +27,13 @@ class MyApp extends StatelessWidget {
         '/home': (BuildContext context) => const HomePage(),
         '/login': (BuildContext context) => const LoginPage(),
         '/register': (BuildContext context) => const RegisterPage(),
+        '/principal': (BuildContext context) => const PrincipalPage(),
+        '/cunaResources': (BuildContext context) => const CunaResourcesPage(),
+        '/infantesResources': (BuildContext context) => const InfantesResourcesPage(),
+        '/primariosResources': (BuildContext context) => const PrimariosResourcesPage(),
+        '/intermediariosResources': (BuildContext context) => const IntermediariosResourcesPage(),
+        '/juvenilesResources': (BuildContext context) => const JuvenilesResourcesPage(),
+        '/adultosResources': (BuildContext context) => const AdultosResourcesPage(),
       },
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightBlue),
